@@ -8,7 +8,7 @@ library(readr)
 install.packages()
 
 # Read data into R
-education <- read_csv("C:/Datasets_BA/360DigiTMG/DS_India/360DigiTMG DS India Module wise PPTs/Module 02 Data Types, SamplingExploratory Data Analytics (EDA), Descriptive Analytics/Data/education.csv")
+education <- read_csv("/home/opt/education.csv")
 education <- read.csv(file.choose()) # load csv file into R
 
 # C:\Users\\education.csv - this is windows default file path with a '\'
